@@ -2,7 +2,14 @@
 # Generative Sound Design
 
 This repository contains the full research artifact package for generating and evaluating your own sound designs using generative AI. **For optimal performance, we recommend using ElevenLabs.**
+- Please note that everything here is based on the default sound design of the 2026 Sound Design Competition. If you want to create a different sound design with new sound effects, you will need to edit the code and prompts.
 
+
+## Generative Sound Designs 
+
+* You can find the two generative sound design samples in `elevanlabs_one_step` and `elevanlabs_two_step`. 
+
+---
 
 ## Target output per set
 - **24 SFX** (≈ **1s** each)
@@ -252,11 +259,6 @@ Ensure you have:
 
 ---
 
-## Reproducibility notes 
-
-* You can find all the results from the experiments in `results` folder.
-
----
 
 ## License / attribution
 
