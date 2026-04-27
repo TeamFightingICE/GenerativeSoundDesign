@@ -5,7 +5,7 @@ This repository contains the full research artifact package for generating and e
 - Please note that everything here is based on the default sound design of the 2026 Sound Design Competition. If you want to create a different sound design with new sound effects, you will need to edit the code and prompts.
 
 
-## Generative Sound Designs 
+## Sample Generative Sound Designs 
 
 * You can find the two generative sound design samples in `elevanlabs_one_step` and `elevanlabs_two_step`. 
 
