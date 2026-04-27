@@ -7,7 +7,8 @@ This repository contains the full research artifact package for generating and e
 
 ## Sample Generative Sound Designs 
 
-* You can find the two generative sound design samples in `elevanlabs_one_step` and `elevanlabs_two_step`. 
+* You can find the two generative sound design samples in `elevanlabs_one_step` and `elevanlabs_two_step`.
+* For instructions on how to convert the above 25 sound effects into the full sound design, please refer to the instructions in the `SoundDesignMaker` folder.
 
 ---
 
