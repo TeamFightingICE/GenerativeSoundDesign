@@ -1,7 +1,7 @@
 
-# Judge, Jury, and SFX-Maker: A Two-Step Pipeline for Generating and Evaluating Fighting Game Audio
+# Generative Sound Design
 
-This repository contains the full research artifact package for **“Judge, Jury, and SFX-Maker: A Two-Step Pipeline for Generating and Evaluating Fighting Game Audio,”**
+This repository contains the full research artifact package for generating and evaluating your own sound designs using generative AI. **For optimal performance, we recommend using ElevenLabs.**
 
 
 ## Target output per set
@@ -70,7 +70,7 @@ OPENAI_API_KEY=...
 
 > For any API-backed model in this repo, you must have a **working API key**.
 
-### 3 Run one-step generation (example: TangoFlux)
+### 3 Run one-step generation (example: TangoFlux) (Use elevenlabs for best performance)
 
 ```bash
 # If scripts are at repo root:
@@ -80,7 +80,7 @@ python generate_round.py --model tangoflux --method one_step --out runs/tangoflu
 python -m soundgen.generate_round --model tangoflux --method one_step --out runs/tangoflux__one_step
 ```
 
-### 4 Example: two-step generation with Audiobox gate
+### 4 Example: two-step generation with Audiobox gate (Use elevenlabs for best performance)
 
 ```bash
 python generate_round.py \
