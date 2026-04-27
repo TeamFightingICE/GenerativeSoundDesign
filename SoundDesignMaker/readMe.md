@@ -19,7 +19,7 @@ Before running the script, ensure you have the following installed:
 
 You need to arrange your audio files into two main areas: an **Example Folder** and an **Input Root Folder**.
 
-* **Example Folder:** Contains your 51 target audio files. The script strictly uses the *filenames* here as a template for your final output; the actual audio inside them is ignored.
+* **Example Folder:** Contains your 51 target audio files (from this [link](https://github.com/TeamFightingICE/Generative-Sound-AI/tree/main/data/sounds). The script strictly uses the *filenames* here as a template for your final output; the actual audio inside them is ignored.
 * **Input Root Folder:** A master folder containing one or more subfolders (e.g., characters or soundpacks). Each subfolder must contain your 25 base sound effects.
 
 ### Example Directory Layout
@@ -27,7 +27,7 @@ You need to arrange your audio files into two main areas: an **Example Folder** 
 ```text
 my_project/
 │
-├── sfx_mapper.py
+├── sdmaker.py
 │
 ├── example_sounds/          <-- Your 51 template files
 │   ├── CROUCH_A.wav
